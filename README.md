@@ -6,7 +6,7 @@ This is nice to get your apps installed on a fresh install of windows 10. This u
 
 ## 2. Theming / extras
 Getting a backround image, dark mode, VSCode themes/addons, 
-
+```
 Install-Module PANSIES -AllowClobber
 Import-Module PowerLine
 Install-Module PowerLine
@@ -17,6 +17,7 @@ Install-Module oh-my-posh -Scope CurrentUser
 Install-Module -Name PSReadLine -AllowPrerelease -Sco…   
 Import-Module posh-git
 Import-Module oh-my-posh
+```
 
 ## 3. Clone git pjts
 
