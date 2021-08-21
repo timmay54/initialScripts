@@ -1,7 +1,7 @@
 # 
 
 
-# install powershellc core 7
+# install powershell core 7
 # https://www.thomasmaurer.ch/2019/03/how-to-install-and-update-powershell-6/
 iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
 
@@ -33,3 +33,8 @@ Set-Theme Paradox
 
 # https://github.com/timmay54/initialScripts/blob/master/README.md
 # https://www.youtube.com/watch?v=2dsnwlnNBzs
+
+# Install chocolatey 
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+choco install -y git vscode postman winscp 
