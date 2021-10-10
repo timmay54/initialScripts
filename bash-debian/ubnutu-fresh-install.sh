@@ -4,7 +4,7 @@
 echo "alias update='sudo apt update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt autoremove && sudo apt clean'" >> ~/.bashrc
 
 # install preffered packages
-sudo apt install -y cmatrix tty-clock neofetch htop wget google-chrome-stable kodi apt-transport-https ca-certificates curl software-properties-common
+sudo apt install -y cmatrix tty-clock neofetch htop wget curl google-chrome-stable kodi apt-transport-https ca-certificates curl software-properties-common
 sudo apt install kodi-vfs-sftp kodi-vfs-rar -y
 
 #install docker & docker-compose 
@@ -29,3 +29,4 @@ docker-compose --version
 #fetch docker compose file and run?
 
 # Nench benchmark alias
+# 2021-October-15th: I have found that the nench script is temporarily down
